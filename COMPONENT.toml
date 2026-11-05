@@ -1,0 +1,16 @@
+[component]
+name = "SigmaOS-window-management-library"
+tier = 3
+stability = "scaffold"
+language = "rust"
+description = "Wayland window management primitives, tiling layout engine, and window decoration toolkit"
+upstream = ["https://github.com/linuxmint/muffin"]
+
+[contract]
+provides = ["window-management-library", "tiling-layout-engine", "window-decorations"]
+depends_on = []
+
+[maturity]
+status = "Scaffold"
+test_evidence = "Compiles and passes AAA unit tests"
+next_milestone = "Hardware and runtime integration"

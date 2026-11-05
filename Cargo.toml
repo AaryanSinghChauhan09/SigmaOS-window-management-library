@@ -1,17 +1,9 @@
 [package]
-name = "sigmaos-desktop-component"
+name = "sigmaos_window_management_library"
 version = "0.1.0"
 edition = "2021"
-authors = ["SigmaOS Team"]
-license = "MIT OR Apache-2.0"
-description = "SigmaOS desktop component with sophisticated implementation"
+description = "Wayland window management primitives, tiling layout engine, and window decoration toolkit"
 
-[dependencies]
-anyhow = "1.0"
-thiserror = "1.0"
-log = "0.4"
-env_logger = "0.10"
-serde = { version = "1.0", features = ["derive"] }
-toml = "0.8"
-
-[dev-dependencies]
+[lib]
+name = "sigmaos_window_management_library"
+path = "src/lib.rs"
