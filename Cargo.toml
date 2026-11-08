@@ -2,7 +2,8 @@
 name = "sigmaos_window_management_library"
 version = "0.1.0"
 edition = "2021"
-description = "Wayland window management primitives, tiling layout engine, and window decoration toolkit"
+license = "MIT"
+description = "SigmaOS window-management-library component inspired by Linux Mint / Omarchy / Arch Linux."
 
 [lib]
 name = "sigmaos_window_management_library"
