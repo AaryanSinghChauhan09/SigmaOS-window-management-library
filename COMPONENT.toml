@@ -3,12 +3,12 @@ name = "SigmaOS-window-management-library"
 tier = 3
 stability = "scaffold"
 language = "rust"
-description = "Wayland window management primitives, tiling layout engine, and window decoration toolkit"
+description = "Compositor / window-manager library"
 upstream = ["https://github.com/linuxmint/muffin"]
 
 [contract]
 provides = ["window-management-library", "tiling-layout-engine", "window-decorations"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
