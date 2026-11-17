@@ -1,7 +1,7 @@
 [component]
 name = "SigmaOS-window-management-library"
 tier = 3
-stability = "scaffold"
+stability = "beta"
 language = "rust"
 description = "Compositor / window-manager library"
 upstream = ["https://github.com/linuxmint/muffin"]
@@ -11,6 +11,6 @@ provides = ["window-management-library", "tiling-layout-engine", "window-decorat
 depends_on = ["SigmaOS-system"]
 
 [maturity]
-status = "Scaffold"
+status = "Implemented"
 test_evidence = "Compiles and passes AAA unit tests"
 next_milestone = "Hardware and runtime integration"
